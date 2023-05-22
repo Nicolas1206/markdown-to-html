@@ -1,12 +1,19 @@
 body {
     font-family: 'Manrope', sans-serif;
     background-color: beige;
-    color: #EB743A;
+    color: #EB743A;    
 }
 
 table, th, tr, td {
     border: 3px solid #EB743A;
     border-collapse: collapse;
+    padding: 5px;
+}
+table {
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    text-align: center;
 }
 
 a {
@@ -22,4 +29,28 @@ a:hover{
 
 .nav {
     text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+    align-items: center;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+}
+table {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+i {
+    text-align: center;
+    display: block;
+}
+
+ul {
+   text-align: center;
+   list-style-position: inside;
 }
