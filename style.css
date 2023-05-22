@@ -19,3 +19,7 @@ a:hover{
     text-decoration: underline;
     background-color: aquamarine;
 }
+
+.nav {
+    text-align: center;
+}
